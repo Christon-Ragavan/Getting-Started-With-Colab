@@ -1,4 +1,4 @@
-## Getting Started With Google Colab
+# Getting Started With Google Colab
 
 
 This following tutorial will get you started with using google Colab
@@ -9,18 +9,19 @@ Google Colab can be interprested as python notebook. There are two general ways 
 
 For now we can only use Colab with google drive which is really simple to get started. 
 
-### Following are the general overview of the steps involved 
+## Following are the general overview of the steps involved 
+```markdown
 1. You need to have a google account (or) create new one
 2. Upload your scripts (Not data - To be extrac careful about the copyrights comtent during traning)
 3. Run the Scrits on Colab from Google Drive.
-
-
-
-
-## Header 2 Mount Google Drive
-```markdown
-mouth
 ```
+
+
+### Step 1: Setting Up
+1. Create Google Account (or use Exsisting)
+2. Nothing Facny, Just make sure you have enough space in your google drive.
+
+### Step 2:
 
 ### Markdown
 
