@@ -19,8 +19,13 @@ For now we can only use Colab with google drive which is really simple to get st
 
 ## Step 1: Setting Up
 1. Create Google Account (or use Exsisting)
-2. Nothing Facny, Just make sure you have enough space in your google drive.
+2. Click on "Add-on" with "+" sign which is towards the right-most column
 ![Add on](/images/setting_up_01.png)
+3. Install Colabotory
+![Add on](/images/setting_up_02.png)
+3. Right Click and open a new colab file (.ipyb)
+![Add on](/images/setting_up_03.png)
+
 
 ## Step 2:
 
