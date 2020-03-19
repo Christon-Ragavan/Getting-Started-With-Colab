@@ -1,10 +1,20 @@
-## Welcome to GitHub Pages
+## Getting Started With Google Colab
 
-You can use the [editor on GitHub](https://github.com/Christon-Ragavan/Getting-Started-With-Colab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 This following tutorial will get you started with using google Colab
+Google Colab can be interprested as python notebook. There are two general ways you can work with Colab.
+
+1. Colab with Google Drive
+2. Colab with Github mounting with google drive
+
+For now we can only use Colab with google drive which is really simple to get started. 
+
+### Following are the general overview of the steps involved 
+1. You need to have a google account (or) create new one
+2. Upload your scripts (Not data - To be extrac careful about the copyrights comtent during traning)
+3. Run the Scrits on Colab from Google Drive.
+
+
 
 
 ## Header 2 Mount Google Drive
