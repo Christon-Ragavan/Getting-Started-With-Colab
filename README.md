@@ -17,11 +17,12 @@ For now we can only use Colab with google drive which is really simple to get st
 ```
 
 
-### Step 1: Setting Up
+## Step 1: Setting Up
 1. Create Google Account (or use Exsisting)
 2. Nothing Facny, Just make sure you have enough space in your google drive.
+![Add on](/images/setting_up_01.png)
 
-### Step 2:
+## Step 2:
 
 ### Markdown
 
