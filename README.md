@@ -5,14 +5,14 @@ This following tutorial will get you started with using Google Colab.
 Google Colab can be interpreted as normal python notebook with added functionality. There are two general ways you can work with Colab.
 
 1. Colab with Google Drive
-2. Colab with Github mounting with google drive
+2. Colab with Github mounting with google drive. 
 
 For now we can only use Colab with google drive which is really simple to get started. 
 
 ## A gneral overview of the steps involved 
 1. You need to have a google account (or) create new one
-2. Upload your scripts (Not data - To be extrac careful about the copyrights comtent during traning)
-3. Run the Scrits on Colab from Google Drive.
+2. Upload your scripts (Not data - To be extra careful about the copyrights comtent during traning)
+3. Run the Scripts on Colab from Google Drive.
 
 
 
@@ -61,6 +61,12 @@ cd /content/drive/My Drive/Colab_with_g_Drive_tutorial
 ```markdown
 ```
 
+## General Tips:
+1. Avoid uploading audio files in Google Drive, instead use extracted features (for example, spectogram saved as .npz file)
+2. Beware of Runtime, it expores every 12 hours or when  left inactive. You might need to change manually or reset it.
+3. Try to avoid traning which takes longer than 12 hours.
+4. Colag can be used for protopyting
+5. There are way you can train the models online and save checkpoint in your local disk
 
 ## Some Basic Commands Needed
 
