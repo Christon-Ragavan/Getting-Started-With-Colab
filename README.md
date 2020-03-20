@@ -43,6 +43,7 @@ For now we can only use Colab with google drive which is really simple to get st
 4. **Set RunTime** - Go to drop down menu and select "Runtime>Change runtime type". Here you can select GPU.
 ![usingcolab01](/images/colab_basics_02.png)
 
+Note: Due to inactivity you might need to reset Runtime.
 
 ## Step 3: Run Scripts From Google Drive
 
@@ -65,7 +66,7 @@ cd /content/drive/My Drive/Colab_with_g_Drive_tutorial
 ```
 
 ## General Tips:
-1. Avoid uploading audio files in Google Drive, instead use extracted features (for example, spectogram saved as .npz file)
+1. Avoid uploading audio files (.wav or .mp3) in Google Drive, instead use extracted features (for example, spectogram saved as .npz file)
 2. Google Colab notebooks have an idle timeout of 90 minutes and absolute timeout of 12 hours. This means, if user does not interact with his Google Colab notebook for more than 90 minutes, its instance is automatically terminated. Also, maximum lifetime of a Colab instance is 12 hours.
 3. Try to avoid traning which takes longer than 12 hours (or break down your tranings)
 4. There are way you can train the models online and save checkpoint in your google drive, check out some info [here](https://mc.ai/how-to-save-and-upload-deep-learning-machine-learning-models-in-google-colab-using-google-drive/)
