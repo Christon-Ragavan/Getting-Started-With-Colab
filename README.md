@@ -63,9 +63,9 @@ cd /content/drive/My Drive/Colab_with_g_Drive_tutorial
 
 ## General Tips:
 1. Avoid uploading audio files in Google Drive, instead use extracted features (for example, spectogram saved as .npz file)
-2. Beware of Runtime, it expores every 12 hours or when  left inactive. You might need to change manually or reset it.
+2. Beware of Runtime, It expires every 12 hours or when  left inactive. You might need to change manually or reset it.
 3. Try to avoid traning which takes longer than 12 hours.
-4. Colag can be used for protopyting
+4. Colab can be used for protopyting
 5. There are way you can train the models online and save checkpoint in your local disk
 
 ## Some Basic Commands Needed
