@@ -17,21 +17,26 @@ For now we can only use Colab with google drive which is really simple to get st
 
 
 ## Step 1: Setting Up
-```
 1. Create Google Account (or use Exsisting)
-```
 2. Click on "Add-on" with "+" sign which is towards the right-most column
 ![Add on](/images/setting_up_01.png)
 3. Install Colabotory
-![Add on](/images/setting_up_02.png)
+![Install Colabotory](/images/setting_up_02.png)
 3. Right Click and open a new colab file (.ipyb)
-![Add on](/images/setting_up_03.png)
+![newFIle](/images/setting_up_03.png)
 
 
-## Step 2:
+## Step 2: Using Colab
 
+1. Basically you can use it as jupiter notebooks. 
+2. To install any packages use following:
+```markdown
+!pip install <package-name> # Don't forget ! before pip
+```
+![usingcolab01](/images/colab_basics_01.png)
 
-
+3. ** Set Run Time** - Go to Runtime>Change runtime type 
+![usingcolab01](/images/colab_basics_02.png)
 
 
 
