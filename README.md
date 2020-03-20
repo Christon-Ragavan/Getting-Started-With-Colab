@@ -26,7 +26,7 @@ For now we can only use Colab with google drive which is really simple to get st
 ![newFIle](/images/setting_up_03.png)
 
 
-## Step 2: Using Colab
+## Step 2: Getting familier with Colab
 
 1. Basically you can use it as jupiter notebooks. 
 2. To install any packages use following:
@@ -41,7 +41,7 @@ For now we can only use Colab with google drive which is really simple to get st
 ![usingcolab01](/images/colab_basics_02.png)
 
 
-## Step 2: Run Scripts From Google Drive
+## Step 3: Run Scripts From Google Drive
 
 In order to run a script you need to do following 3 steps
 1. Mount your google drive with your .ipynb 
