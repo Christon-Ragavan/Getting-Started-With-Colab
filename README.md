@@ -63,10 +63,10 @@ cd /content/drive/My Drive/Colab_with_g_Drive_tutorial
 
 ## General Tips:
 1. Avoid uploading audio files in Google Drive, instead use extracted features (for example, spectogram saved as .npz file)
-2. Beware of Runtime, It expires every 12 hours or when  left inactive. You might need to change manually or reset it.
-3. Try to avoid traning which takes longer than 12 hours.
-4. Colab can be used for protopyting
-5. There are way you can train the models online and save checkpoint in your local disk
+2. Google Colab notebooks have an idle timeout of 90 minutes and absolute timeout of 12 hours. This means, if user does not interact with his Google Colab notebook for more than 90 minutes, its instance is automatically terminated. Also, maximum lifetime of a Colab instance is 12 hours.
+3. Try to avoid traning which takes longer than 12 hours (or break down your tranings)
+4. There are way you can train the models online and save checkpoint in your google drive, check out some info [here](https://mc.ai/how-to-save-and-upload-deep-learning-machine-learning-models-in-google-colab-using-google-drive/)
+5. If you want to use TPUs. check out some info  [here](https://www.dlology.com/blog/how-to-train-keras-model-x20-times-faster-with-tpu-for-free/)
 
 ## Some Basic Commands Needed
 
