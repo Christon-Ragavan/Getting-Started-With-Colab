@@ -31,7 +31,9 @@ For now we can only use Colab with google drive which is really simple to get st
 1. Basically you can use it as jupiter notebooks. 
 2. To install any packages use following:
 ```markdown
-!pip install <package-name> # Don't forget ! before pip
+!pip install <package-name> 
+ # Don't forget ! before pip. 
+ # If you want to execute terminal commands use "!" before common command
 ```
 ![usingcolab01](/images/colab_basics_01.png)
 
@@ -39,43 +41,24 @@ For now we can only use Colab with google drive which is really simple to get st
 ![usingcolab01](/images/colab_basics_02.png)
 
 
+## Step 2: Run Scripts From Google Drive
 
+In order to run a script you need to do following 3 steps
+1. Mount your google drive with your .ipynb 
+```markdown
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
+2. You need to authorise which google drive you want to mount by signing in. After signing-in you will get a code which you can then paste it in the given area.(This can be done easily by following the instructions)
+
+3. Go to the script location and run the script
+```markdown
+cd /content/drive/My Drive/Colab_with_g_Drive_tutorial
+!python colab_test.py
+```
+![usingcolab01](/images/colab_basics_03.png)
 
 
 For html link click [here](https://christon-ragavan.github.io/Getting-Started-With-Colab/)
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Christon-Ragavan/Getting-Started-With-Colab/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
