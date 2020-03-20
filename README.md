@@ -58,7 +58,24 @@ cd /content/drive/My Drive/Colab_with_g_Drive_tutorial
 !python colab_test.py
 ```
 ![usingcolab01](/images/colab_basics_03.png)
+```markdown
+```
 
+
+## Some Basic Commands Needed
+
+To check CPU and RAM specifications
+```markdown
+!cat /proc/cpuinfo
+!cat /proc/meminfo
+```
+
+
+Check GPU specifications
+```markdown
+from tensorflow.python.client import device_lib
+device_lib.list_local_devices()
+```
 
 For html link click [here](https://christon-ragavan.github.io/Getting-Started-With-Colab/)
 
