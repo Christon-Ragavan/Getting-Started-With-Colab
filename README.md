@@ -9,35 +9,38 @@ Google Colab can be interpreted as normal python notebook with added functionali
 
 For now we can only use Colab with google drive which is really simple to get started. 
 
-## A general overview of the steps involved 
-1. You need to have a google account (or) create new one
-2. Upload your scripts (Not data - To be extra careful about the copyrights comtent during traning)
-3. Run the Scripts on Colab from Google Drive.
+## A general overview of the steps involved in using Google Colab
+- You need to have a google account (or) create new one
+- Upload your scripts and data
+- Run the Scripts on Colab from Google Drive.
 
 
 
 ## Step 1: Setting Up
 1. Create Google Account (or use Exsisting)
-2. Click on "Add-on" with "+" sign which is towards the right-most column
+2. Go to google drive //drive drive.google.com
+3. Click on "Add-on" with "+" sign which is towards the right-most column
 ![Add on](/images/setting_up_01.png)
-3. Install Colabotory
+4. Install Colabotory
 ![Install Colabotory](/images/setting_up_02.png)
-3. Right Click and open a new colab file (.ipyb)
+5. Right Click and open a new colab file (.ipyb)
 ![newFIle](/images/setting_up_03.png)
 
 
 ## Step 2: Getting familier with Colab
 
-1. Basically you can use it as jupiter notebooks. 
-2. To install any packages use following:
+1. Basically you can use it as ipython notebooks.
+2. Ideally you can execute any python shell command through .ipynb 
+3. To install any packages use following:
 ```markdown
 !pip install <package-name> 
  # Don't forget ! before pip. 
- # If you want to execute terminal commands use "!" before any desired terminal command
+ # If you want to execute shell commands use "!" before any desired command
+ # For more information [here](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.05-IPython-And-Shell-Commands.ipynb)
 ```
 ![usingcolab01](/images/colab_basics_01.png)
 
-3. ** Set Run Time** - Go to Runtime>Change runtime type 
+4. **Set RunTime** - Go to drop down menu and select "Runtime>Change runtime type". Here you can select GPU.
 ![usingcolab01](/images/colab_basics_02.png)
 
 
