@@ -5,7 +5,7 @@ This following tutorial will get you started with using Google Colab.
 Google Colab can be interpreted as normal python notebook with added functionality. There are two general ways you can work with Colab.
 
 1. Colab with Google Drive
-2. Colab with Github mounting with google drive. 
+2. Colab with Github mounting with google drive. (!!!Only if its private repository)
 
 For now we can only use Colab with google drive which is really simple to get started. 
 
