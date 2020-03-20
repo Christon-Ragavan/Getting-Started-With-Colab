@@ -33,7 +33,7 @@ For now we can only use Colab with google drive which is really simple to get st
 ```markdown
 !pip install <package-name> 
  # Don't forget ! before pip. 
- # If you want to execute terminal commands use "!" before common command
+ # If you want to execute terminal commands use "!" before any desired terminal command
 ```
 ![usingcolab01](/images/colab_basics_01.png)
 
