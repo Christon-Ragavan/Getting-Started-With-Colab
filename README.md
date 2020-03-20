@@ -9,7 +9,7 @@ Google Colab can be interpreted as normal python notebook with added functionali
 
 For now we can only use Colab with google drive which is really simple to get started. 
 
-## A gneral overview of the steps involved 
+## A general overview of the steps involved 
 1. You need to have a google account (or) create new one
 2. Upload your scripts (Not data - To be extra careful about the copyrights comtent during traning)
 3. Run the Scripts on Colab from Google Drive.
