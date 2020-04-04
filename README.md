@@ -1,5 +1,5 @@
 # Getting Started With Google Colab
-
+\zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
 
 This following tutorial will get you started with using Google Colab. 
 Google Colab can be interpreted as normal python notebook with added functionality. There are two general ways you can work with Colab.
