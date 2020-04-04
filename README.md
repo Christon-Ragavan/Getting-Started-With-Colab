@@ -1,6 +1,9 @@
 # Getting Started With Google Colab
+ {% raw %}
 \zeta(s) = \sum_{n=1}^\infty \frac{1}{n^s}
-
+  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+ {% endraw %}
+ 
 This following tutorial will get you started with using Google Colab. 
 Google Colab can be interpreted as normal python notebook with added functionality. There are two general ways you can work with Colab.
 
